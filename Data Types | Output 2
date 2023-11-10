@@ -1,0 +1,34 @@
+public class String_Output2 
+{
+    
+    public static void main(String[] args) {
+        String name = "Andrea A. Echavez";
+        System.out.println("Name is: " + name);
+        
+        char Gender = 'F';
+        System.out.println("Gender is: " + Gender);
+        
+        boolean Married = false;
+        System.out.println("Is married is: " + Married);
+        
+        byte Children = 0;
+        System.out.println("Number of Children is: " + Children);
+         
+        short Birthyear = 2003;
+        System.out.println("Year of Birth is: " + Birthyear);
+        
+        int Salary = 90500;
+        System.out.println("Salary is: " + Salary);
+        
+        long netAsset = 80803020030L;
+        System.out.println("Net Asset is: " + netAsset);
+        
+        float Weight = 45.50f;
+        System.out.println("Weight is: " + Weight);
+        
+        double GPA = 1.51;
+        System.out.println("GPA is: " + GPA); 
+
+    }
+    
+}
