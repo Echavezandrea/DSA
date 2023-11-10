@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Scanner_NextLine 
+{
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+	
+        System.out.println("PERSONAL INFORMATION");
+        System.out.println("Answer the following question:");
+        String A;
+	System.out.print("What is your Fullname? ");
+	A=scan.nextLine(); 
+        String B;
+	System.out.print("How old are you? ");
+	B=scan.nextLine(); 
+        String C;
+	System.out.print("Where do you live? ");
+	C=scan.nextLine(); 
+                
+        System.out.println("\n---------------------------------------------");
+        System.out.println("Here is the complete record of your response!");
+        System.out.println("---------------------------------------------");
+        System.out.println("\nMy Fullname is " + A);
+        System.out.println("I am " + B + " years old");
+        System.out.println("I Live at " + C);
+    }
+    
+}
