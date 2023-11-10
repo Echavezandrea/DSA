@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Scanner_Next 
+{
+    public static void main(String[] args) {
+       Scanner scan = new Scanner(System.in);
+
+        System.out.println("PERSONAL INFORMATION");
+        System.out.println("Fill in the following blanks");
+        System.out.println("Note: Strictly use underscore(_) for using space");
+        
+        String A;
+        System.out.println("\nMy Full Name:___________");
+        System.out.print("Enter:");
+        A = scan.next();
+        
+        String B;
+        System.out.println("\nI am __ years old");
+        System.out.print("Enter:");
+        B = scan.next(); 
+        
+        String C;
+        System.out.println("\nI Live at ______________");
+        System.out.print("Enter:");
+        C = scan.next();
+
+        
+        System.out.println("\n---------------------------------------------");
+        System.out.println("Here is the complete record of your response!");
+        System.out.println("---------------------------------------------");
+        System.out.println("\nMy Fullname is " + A);
+        System.out.println("I am " + B + " years old");
+        System.out.println("I Live at " + C);
+
+    }
+    
+}
