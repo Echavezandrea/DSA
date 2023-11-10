@@ -1,0 +1,33 @@
+public class String_Output1 
+{
+    public static void main(String[] args) {
+        String name = "Juan S. Dela Cruz";
+        System.out.println("Name is: " + name);
+        
+        char Gender = 'M';
+        System.out.println("Gender is: " + Gender);
+        
+        boolean Married = true;
+        System.out.println("Is married is: " + Married);
+        
+        byte Children = 8;
+        System.out.println("Number of Children is: " + Children);
+         
+        short Birthyear = 1945;
+        System.out.println("Year of Birth is: " + Birthyear);
+        
+        int Salary = 88000;
+        System.out.println("Salary is: " + Salary);
+        
+        long netAsset = 8234567890L;
+        System.out.println("Net Asset is: " + netAsset);
+        
+        float Weight = 88.88f;
+        System.out.println("Weight is: " + Weight);
+        
+        double GPA = 3.88;
+        System.out.println("GPA is: " + GPA); 
+
+    }
+    
+}
